@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "klip.me - Free Clipboard Manager",
-  "version": "0.1",
+  "version": "0.12",
   "permissions": ["tabs", "activeTab", "<all_urls>", "*://*/*", "webRequest"],
   "description": "klip.me is a open source clipboard manager",
   "icons": {
@@ -22,7 +22,7 @@
   ],
  "browser_action": {
     "default_popup": "index.html",
-    "default_title": "Passwall - Free Password Manager",
+    "default_title": "klip.me - Free Clipboard Manager",
     "default_icon": {
       "19": "icons/19.png",
       "38": "icons/38.png"

@@ -1,48 +1,52 @@
-# Svelte + TS + Vite
+# klip.me!  
 
-This template should help get you started developing with Svelte and TypeScript in Vite.
+klip.me is Open Source Clipboard Management Extension
 
-## Recommended IDE Setup
+## Version 0.12 [Early Development v(ersion) 2]
 
+####Program and Tools that we've used
 [VSCode](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
 
-## Need an official Svelte framework?
+####Official Svelte FrameWork
 
 Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
 
-## Technical considerations
+## Info
 
-**Why use this over SvelteKit?**
+**What is klip.me?**
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
-  `vite dev` and `vite build` wouldn't work in a SvelteKit environment, for example.
+- klip.me is an open source clipboard management extension for browsers!
 
-This template contains as little as possible to get started with Vite + TypeScript + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-app` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
+**Where is klip.me name from?**
 
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
+- "klip" comes from "clip" in ["clipboard"](https://www.dictionary.com/browse/clipboard)
+  "clip" with ".me" sounds like "clip me" 
 
-**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
+**Who are the developers of klip.me?**
 
-Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
+-[Y. Baturalp Uymaz (14)](https://github.com/baturalpuymaz) as Full-Stack Developer and Graphic Designer
+-[Ömer Faruk Şahin (15)](https://github.com/ofsahof) as Developer and Project Manager
 
-**Why include `.vscode/extensions.json`?**
+##The Development Process
 
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
+###Step I: Planning
+First of all you'll need to plan everything you will do. From name to coding.
 
-**Why enable `allowJs` in the TS template?**
+###Step II: Designing
+Design your UI (User Interface) and UX (User Experience), you need to create a logo, 
+an icon and a color scheme. This will be the reference what you'll code!
 
-While `allowJs: false` would indeed prevent the use of `.js` files in the project, it does not prevent the use of JavaScript syntax in `.svelte` files. In addition, it would force `checkJs: false`, bringing the worst of both worlds: not being able to guarantee the entire codebase is TypeScript, and also having worse typechecking for the existing JavaScript. In addition, there are valid use cases in which a mixed codebase may be relevant.
+###Step III: Programming
+* Find yourself a framework (optional, prefered by [Ömer Faruk Şahin](https://github.com/ofsahof))
 
-**Why is HMR not preserving my local component state?**
+* Create a file named your extension.
 
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/rixo/svelte-hmr#svelte-hmr).
+* Create a manifest file [Learn how to create](https://developer.chrome.com/docs/extensions/mv3/manifest/)
 
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
+* Code your extension [Learn how to code](https://developer.chrome.com/docs/extensions/mv3/getstarted/) 
 
-```ts
-// store.ts
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
-```
+* Share it on [GitHub](https://github.com/)
+
+###Contact
+-[For more information](https://instagram.com/itsbaturalp)
+-[Mail to Me](mailto:baturalp@uymaz.net)

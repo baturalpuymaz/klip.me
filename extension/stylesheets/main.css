@@ -37,6 +37,11 @@
     src: url(fonts/SFPRO/otf/SFNSDisplay-Medium.otf);
   } 
 
+  @font-face {
+      font-family: SFRegular;
+      src: url(fonts/SFPRO/otf/SFNSDisplay-Regular.otf);
+  }
+
   .coffee {
     color: #ffffff;
     background-color: #6277de;
@@ -93,4 +98,21 @@
       text-align: center;       
       position: absolute;
       right: 10px;
+    }
+
+    .ttc {
+        font-size:large;
+        font-family: SFRegular;
+        color: white;
+        left: 15px;
+        text-align: center;
+        position: absolute;
+        top: 12px;
+    }
+
+    .textlogo {
+        top: 10px;
+        left: 98.0625px;
+        text-align: center;
+        position: absolute;
     }
