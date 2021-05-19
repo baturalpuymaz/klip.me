@@ -51,6 +51,4 @@ an icon and a color scheme. This will be the reference what you'll code!
 ### Contact
 -[For more information](https://instagram.com/itsbaturalp)
 
--
-
 -[Mail to Me](mailto:baturalp@uymaz.net)
