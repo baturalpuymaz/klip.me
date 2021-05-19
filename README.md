@@ -24,9 +24,9 @@ Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also pow
 
 **Who are the developers of klip.me?**
 
--[Y. Baturalp Uymaz (14)](https://github.com/baturalpuymaz) as Full-Stack Developer and Graphic Designer
--
--[Ömer Faruk Şahin (15)](https://github.com/ofsahof) as Developer and Project Manager
+[Y. Baturalp Uymaz (14)](https://github.com/baturalpuymaz) as Full-Stack Developer and Graphic Designer
+
+[Ömer Faruk Şahin (15)](https://github.com/ofsahof) as Developer and Project Manager
 
 ## The Development Process
 
